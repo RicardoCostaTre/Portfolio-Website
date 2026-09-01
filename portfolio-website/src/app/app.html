@@ -1,0 +1,33 @@
+<div class="app-shell">
+  <header class="app-header">
+    <nav class="app-nav">
+      <a class="app-brand" routerLink="/">
+        <img class="app-brand-icon" src="/resume-icon.svg" alt="" aria-hidden="true">
+        <span>{{ title() }}</span>
+      </a>
+
+      <div class="nav-tabs" aria-label="Portfolio pages">
+        @for (item of navItems; track item.path) {
+          <a
+            class="nav-tab"
+            [routerLink]="item.path"
+            routerLinkActive="is-active"
+            [routerLinkActiveOptions]="{ exact: item.exact ?? false }"
+          >
+            {{ item.label }}
+          </a>
+        }
+      </div>
+    </nav>
+  </header>
+
+  <main class="app-main">
+    <div class="app-content container-fluid">
+      <router-outlet></router-outlet>
+    </div>
+  </main>
+
+  <footer class="app-footer bg-light">
+    <h6 class="text-center mb-0">&copy; {{ appYear }}</h6>
+  </footer>
+</div>

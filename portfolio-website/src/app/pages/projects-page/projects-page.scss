@@ -1,0 +1,48 @@
+.page-card {
+  padding: 2rem;
+  background: #ffffff;
+  border-radius: 1.5rem;
+  box-shadow: 0 18px 40px rgba(17, 32, 49, 0.08);
+}
+
+.section-label {
+  margin: 0 0 0.75rem;
+  color: #0f4c75;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.project-list {
+  display: grid;
+  gap: 1rem;
+}
+
+.page-intro {
+  max-width: 70ch;
+  color: #46566a;
+  line-height: 1.7;
+}
+
+.project-item {
+  padding: 1.25rem;
+  border-radius: 1rem;
+  background: #f4f7fb;
+}
+
+.project-item h2 {
+  margin-top: 0;
+}
+
+.project-item p {
+  margin-bottom: 0.85rem;
+  line-height: 1.6;
+  color: #46566a;
+}
+
+.project-item ul {
+  margin: 0;
+  padding-left: 1.1rem;
+  color: #46566a;
+  line-height: 1.7;
+}

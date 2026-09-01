@@ -9,6 +9,7 @@ The portfolio itself is actively developed and maintained in a separate **DevOps
 - Provide a public version of the portfolio website source code
 - Maintain visible version history for portfolio and recruitment purposes
 - Showcase the structure, implementation, and technologies used in the project
+- Live Site: https://www.ricardoct.co.za/
 
 ## Development
 
